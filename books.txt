@@ -1,0 +1,965 @@
+﻿[
+    {
+        "Serial No.": 1,
+        "Name": "To Kill a Mockingbird",
+        "Author": "Harper Lee",
+        "ISBN": "9780061120084",
+        "Placement": "Almira 1, Shelf 1A"
+    },
+    {
+        "Serial No.": 2,
+        "Name": "1984",
+        "Author": "George Orwell",
+        "ISBN": "9780451524935",
+        "Placement": "Almira 1, Shelf 1A"
+    },
+    {
+        "Serial No.": 3,
+        "Name": "Pride and Prejudice",
+        "Author": "Jane Austen",
+        "ISBN": "9781503290563",
+        "Placement": "Almira 1, Shelf 1A"
+    },
+    {
+        "Serial No.": 4,
+        "Name": "The Great Gatsby",
+        "Author": "F. Scott Fitzgerald",
+        "ISBN": "9780743273565",
+        "Placement": "Almira 1, Shelf 1A"
+    },
+    {
+        "Serial No.": 5,
+        "Name": "Moby Dick",
+        "Author": "Herman Melville",
+        "ISBN": "9781503280786",
+        "Placement": "Almira 1, Shelf 1A"
+    },
+    {
+        "Serial No.": 6,
+        "Name": "War and Peace",
+        "Author": "Leo Tolstoy",
+        "ISBN": "9781400079988",
+        "Placement": "Almira 1, Shelf 1B"
+    },
+    {
+        "Serial No.": 7,
+        "Name": "The Catcher in the Rye",
+        "Author": "J.D. Salinger",
+        "ISBN": "9780316769488",
+        "Placement": "Almira 1, Shelf 1B"
+    },
+    {
+        "Serial No.": 8,
+        "Name": "The Odyssey",
+        "Author": "Homer",
+        "ISBN": "9780140268867",
+        "Placement": "Almira 1, Shelf 1B"
+    },
+    {
+        "Serial No.": 9,
+        "Name": "Crime and Punishment",
+        "Author": "Fyodor Dostoevsky",
+        "ISBN": "9780486415871",
+        "Placement": "Almira 1, Shelf 1B"
+    },
+    {
+        "Serial No.": 10,
+        "Name": "The Brothers Karamazov",
+        "Author": "Fyodor Dostoevsky",
+        "ISBN": "9780374528379",
+        "Placement": "Almira 1, Shelf 1B"
+    }
+
+
+    {
+        "Serial No.": 1,
+        "Name": "To Kill a Mockingbird",
+        "Author": "Harper Lee",
+        "ISBN": "9780061120084",
+        "Placement": "Almira 1, Shelf 1A"
+    },
+    {
+        "Serial No.": 2,
+        "Name": "1984",
+        "Author": "George Orwell",
+        "ISBN": "9780451524935",
+        "Placement": "Almira 1, Shelf 1A"
+    },
+    {
+        "Serial No.": 3,
+        "Name": "Pride and Prejudice",
+        "Author": "Jane Austen",
+        "ISBN": "9781503290563",
+        "Placement": "Almira 1, Shelf 1A"
+    },
+    {
+        "Serial No.": 4,
+        "Name": "The Great Gatsby",
+        "Author": "F. Scott Fitzgerald",
+        "ISBN": "9780743273565",
+        "Placement": "Almira 1, Shelf 1A"
+    },
+    {
+        "Serial No.": 5,
+        "Name": "Moby Dick",
+        "Author": "Herman Melville",
+        "ISBN": "9781503280786",
+        "Placement": "Almira 1, Shelf 1A"
+    },
+    {
+        "Serial No.": 6,
+        "Name": "War and Peace",
+        "Author": "Leo Tolstoy",
+        "ISBN": "9781400079988",
+        "Placement": "Almira 1, Shelf 1B"
+    },
+    {
+        "Serial No.": 7,
+        "Name": "The Catcher in the Rye",
+        "Author": "J.D. Salinger",
+        "ISBN": "9780316769488",
+        "Placement": "Almira 1, Shelf 1B"
+    },
+    {
+        "Serial No.": 8,
+        "Name": "The Odyssey",
+        "Author": "Homer",
+        "ISBN": "9780140268867",
+        "Placement": "Almira 1, Shelf 1B"
+    },
+    {
+        "Serial No.": 9,
+        "Name": "Crime and Punishment",
+        "Author": "Fyodor Dostoevsky",
+        "ISBN": "9780486415871",
+        "Placement": "Almira 1, Shelf 1B"
+    },
+    {
+        "Serial No.": 10,
+        "Name": "The Brothers Karamazov",
+        "Author": "Fyodor Dostoevsky",
+        "ISBN": "9780374528379",
+        "Placement": "Almira 1, Shelf 1B"
+    }
+
+
+
+
+
+
+    {
+        "Serial No.": 11,
+        "Name": "Wuthering Heights",
+        "Author": "Emily Brontë",
+        "ISBN": "9780141439556",
+        "Placement": "Almira 1, Shelf 1C"
+    },
+    {
+        "Serial No.": 12,
+        "Name": "The Adventures of Huckleberry Finn",
+        "Author": "Mark Twain",
+        "ISBN": "9780486280615",
+        "Placement": "Almira 1, Shelf 1C"
+    },
+    {
+        "Serial No.": 13,
+        "Name": "Jane Eyre",
+        "Author": "Charlotte Brontë",
+        "ISBN": "9780141441146",
+        "Placement": "Almira 1, Shelf 1C"
+    },
+    {
+        "Serial No.": 14,
+        "Name": "Frankenstein",
+        "Author": "Mary Shelley",
+        "ISBN": "9780486282114",
+        "Placement": "Almira 1, Shelf 1C"
+    },
+    {
+        "Serial No.": 15,
+        "Name": "Dracula",
+        "Author": "Bram Stoker",
+        "ISBN": "9780486411095",
+        "Placement": "Almira 1, Shelf 1C"
+    },
+    {
+        "Serial No.": 16,
+        "Name": "The Hobbit",
+        "Author": "J.R.R. Tolkien",
+        "ISBN": "9780547928227",
+        "Placement": "Almira 1, Shelf 1D"
+    },
+    {
+        "Serial No.": 17,
+        "Name": "Little Women",
+        "Author": "Louisa May Alcott",
+        "ISBN": "9780147514011",
+        "Placement": "Almira 1, Shelf 1D"
+    },
+    {
+        "Serial No.": 18,
+        "Name": "The Scarlet Letter",
+        "Author": "Nathaniel Hawthorne",
+        "ISBN": "9780486280487",
+        "Placement": "Almira 1, Shelf 1D"
+    },
+    {
+        "Serial No.": 19,
+        "Name": "Brave New World",
+        "Author": "Aldous Huxley",
+        "ISBN": "9780060850524",
+        "Placement": "Almira 1, Shelf 1D"
+    },
+    {
+        "Serial No.": 20,
+        "Name": "The Iliad",
+        "Author": "Homer",
+        "ISBN": "9780140275360",
+        "Placement": "Almira 1, Shelf 1D"
+    },
+    {
+        "Serial No.": 21,
+        "Name": "Great Expectations",
+        "Author": "Charles Dickens",
+        "ISBN": "9780141439563",
+        "Placement": "Almira 1, Shelf 1E"
+    },
+    {
+        "Serial No.": 22,
+        "Name": "The Picture of Dorian Gray",
+        "Author": "Oscar Wilde",
+        "ISBN": "9780141439570",
+        "Placement": "Almira 1, Shelf 1E"
+    },
+    {
+        "Serial No.": 23,
+        "Name": "The Divine Comedy",
+        "Author": "Dante Alighieri",
+        "ISBN": "9780142437223",
+        "Placement": "Almira 1, Shelf 1E"
+    },
+    {
+        "Serial No.": 24,
+        "Name": "The Count of Monte Cristo",
+        "Author": "Alexandre Dumas",
+        "ISBN": "9780140449266",
+        "Placement": "Almira 1, Shelf 1E"
+    },
+    {
+        "Serial No.": 25,
+        "Name": "Don Quixote",
+        "Author": "Miguel de Cervantes",
+        "ISBN": "9780060934347",
+        "Placement": "Almira 1, Shelf 1E"
+    },
+    {
+        "Serial No.": 26,
+        "Name": "The Lord of the Rings: The Fellowship of the Ring",
+        "Author": "J.R.R. Tolkien",
+        "ISBN": "9780547928210",
+        "Placement": "Almira 2, Shelf 2A"
+    },
+    {
+        "Serial No.": 27,
+        "Name": "The Lord of the Rings: The Two Towers",
+        "Author": "J.R.R. Tolkien",
+        "ISBN": "9780547928203",
+        "Placement": "Almira 2, Shelf 2A"
+    },
+    {
+        "Serial No.": 28,
+        "Name": "The Lord of the Rings: The Return of the King",
+        "Author": "J.R.R. Tolkien",
+        "ISBN": "9780547928197",
+        "Placement": "Almira 2, Shelf 2A"
+    },
+    {
+        "Serial No.": 29,
+        "Name": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+        "Author": "C.S. Lewis",
+        "ISBN": "9780064471045",
+        "Placement": "Almira 2, Shelf 2A"
+    },
+    {
+        "Serial No.": 30,
+        "Name": "Harry Potter and the Sorcerer's Stone",
+        "Author": "J.K. Rowling",
+        "ISBN": "9780590353427",
+        "Placement": "Almira 2, Shelf 2A"
+    },
+    {
+        "Serial No.": 31,
+        "Name": "Harry Potter and the Chamber of Secrets",
+        "Author": "J.K. Rowling",
+        "ISBN": "9780439064873",
+        "Placement": "Almira 2, Shelf 2B"
+    },
+    {
+        "Serial No.": 32,
+        "Name": "Harry Potter and the Prisoner of Azkaban",
+        "Author": "J.K. Rowling",
+        "ISBN": "9780439136365",
+        "Placement": "Almira 2, Shelf 2B"
+    },
+    {
+        "Serial No.": 33,
+        "Name": "Harry Potter and the Goblet of Fire",
+        "Author": "J.K. Rowling",
+        "ISBN": "9780439139601",
+        "Placement": "Almira 2, Shelf 2B"
+    },
+    {
+        "Serial No.": 34,
+        "Name": "Harry Potter and the Order of the Phoenix",
+        "Author": "J.K. Rowling",
+        "ISBN": "9780439358071",
+        "Placement": "Almira 2, Shelf 2B"
+    },
+    {
+        "Serial No.": 35,
+        "Name": "Harry Potter and the Half-Blood Prince",
+        "Author": "J.K. Rowling",
+        "ISBN": "9780439785969",
+        "Placement": "Almira 2, Shelf 2B"
+    },
+    {
+        "Serial No.": 36,
+        "Name": "Harry Potter and the Deathly Hallows",
+        "Author": "J.K. Rowling",
+        "ISBN": "9780545010221",
+        "Placement": "Almira 2, Shelf 2C"
+    },
+    {
+        "Serial No.": 37,
+        "Name": "The Hobbit",
+        "Author": "J.R.R. Tolkien",
+        "ISBN": "9780547928227",
+        "Placement": "Almira 2, Shelf 2C"
+    },
+    {
+        "Serial No.": 38,
+        "Name": "The Lord of the Rings: The Fellowship of the Ring",
+        "Author": "J.R.R. Tolkien",
+        "ISBN": "9780547928210",
+        "Placement": "Almira 2, Shelf 2C"
+    },
+    {
+        "Serial No.": 39,
+        "Name": "The Lord of the Rings: The Two Towers",
+        "Author": "J.R.R. Tolkien",
+        "ISBN": "9780547928203",
+        "Placement": "Almira 2, Shelf 2C"
+    },
+    {
+        "Serial No.": 40,
+        "Name": "The Lord of the Rings: The Return of the King",
+        "Author": "J.R.R. Tolkien",
+        "ISBN": "9780547928197",
+        "Placement": "Almira 2, Shelf 2C"
+    },
+    {
+        "Serial No.": 41,
+        "Name": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+        "Author": "C.S. Lewis",
+        "ISBN": "9780064471045",
+        "Placement": "Almira 2, Shelf 2D"
+    },
+    {
+        "Serial No.": 42,
+        "Name": "The Chronicles of Narnia: Prince Caspian",
+        "Author": "C.S. Lewis",
+        "ISBN": "9780064471052",
+        "Placement": "Almira 2, Shelf 2D
+    },
+
+
+
+
+    {
+        "Serial No.": 43,
+        "Name": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
+        "Author": "C.S. Lewis",
+        "ISBN": "9780064471076",
+        "Placement": "Almira 2, Shelf 2D"
+    },
+    {
+        "Serial No.": 44,
+        "Name": "The Chronicles of Narnia: The Silver Chair",
+        "Author": "C.S. Lewis",
+        "ISBN": "9780064471090",
+        "Placement": "Almira 2, Shelf 2D"
+    },
+    {
+        "Serial No.": 45,
+        "Name": "The Chronicles of Narnia: The Last Battle",
+        "Author": "C.S. Lewis",
+        "ISBN": "9780064471083",
+        "Placement": "Almira 2, Shelf 2D"
+    },
+    {
+        "Serial No.": 46,
+        "Name": "The Chronicles of Narnia: The Magician's Nephew",
+        "Author": "C.S. Lewis",
+        "ISBN": "9780064471106",
+        "Placement": "Almira 2, Shelf 2E"
+    },
+    {
+        "Serial No.": 47,
+        "Name": "The Chronicles of Narnia: The Horse and His Boy",
+        "Author": "C.S. Lewis",
+        "ISBN": "9780064471069",
+        "Placement": "Almira 2, Shelf 2E"
+    },
+    {
+        "Serial No.": 48,
+        "Name": "The Catcher in the Rye",
+        "Author": "J.D. Salinger",
+        "ISBN": "9780316769488",
+        "Placement": "Almira 2, Shelf 2E"
+    },
+    {
+        "Serial No.": 49,
+        "Name": "Animal Farm",
+        "Author": "George Orwell",
+        "ISBN": "9780451526342",
+        "Placement": "Almira 2, Shelf 2E"
+    },
+    {
+        "Serial No.": 50,
+        "Name": "The Grapes of Wrath",
+        "Author": "John Steinbeck",
+        "ISBN": "9780143039433",
+        "Placement": "Almira 2, Shelf 2E"
+    },
+    {
+        "Serial No.": 51,
+        "Name": "The Old Man and the Sea",
+        "Author": "Ernest Hemingway",
+        "ISBN": "9780684801223",
+        "Placement": "Almira 3, Shelf 3A"
+    },
+    {
+        "Serial No.": 52,
+        "Name": "The Sun Also Rises",
+        "Author": "Ernest Hemingway",
+        "ISBN": "9780743297332",
+        "Placement": "Almira 3, Shelf 3A"
+    },
+    {
+        "Serial No.": 53,
+        "Name": "A Farewell to Arms",
+        "Author": "Ernest Hemingway",
+        "ISBN": "9780684801469",
+        "Placement": "Almira 3, Shelf 3A"
+    },
+    {
+        "Serial No.": 54,
+        "Name": "For Whom the Bell Tolls",
+        "Author": "Ernest Hemingway",
+        "ISBN": "9780684803357",
+        "Placement": "Almira 3, Shelf 3A"
+    },
+    {
+        "Serial No.": 55,
+        "Name": "Moby Dick",
+        "Author": "Herman Melville",
+        "ISBN": "9781503280786",
+        "Placement": "Almira 3, Shelf 3A"
+    },
+    {
+        "Serial No.": 56,
+        "Name": "The Metamorphosis",
+        "Author": "Franz Kafka",
+        "ISBN": "9780553213690",
+        "Placement": "Almira 3, Shelf 3B"
+    },
+    {
+        "Serial No.": 57,
+        "Name": "The Trial",
+        "Author": "Franz Kafka",
+        "ISBN": "9780805209990",
+        "Placement": "Almira 3, Shelf 3B"
+    },
+    {
+        "Serial No.": 58,
+        "Name": "In the Penal Colony",
+        "Author": "Franz Kafka",
+        "ISBN": "9780871402209",
+        "Placement": "Almira 3, Shelf 3B"
+    },
+    {
+        "Serial No.": 59,
+        "Name": "The Castle",
+        "Author": "Franz Kafka",
+        "ISBN": "9780805211061",
+        "Placement": "Almira 3, Shelf 3B"
+    },
+    {
+        "Serial No.": 60,
+        "Name": "A Christmas Carol",
+        "Author": "Charles Dickens",
+        "ISBN": "9780486268652",
+        "Placement": "Almira 3, Shelf 3B"
+    },
+    {
+        "Serial No.": 61,
+        "Name": "Oliver Twist",
+        "Author": "Charles Dickens",
+        "ISBN": "9780141439747",
+        "Placement": "Almira 3, Shelf 3C"
+    },
+    {
+        "Serial No.": 62,
+        "Name": "David Copperfield",
+        "Author": "Charles Dickens",
+        "ISBN": "9780140439441",
+        "Placement": "Almira 3, Shelf 3C"
+    },
+    {
+        "Serial No.": 63,
+        "Name": "A Tale of Two Cities",
+        "Author": "Charles Dickens",
+        "ISBN": "9780141439600",
+        "Placement": "Almira 3, Shelf 3C"
+    },
+    {
+        "Serial No.": 64,
+        "Name": "Bleak House",
+        "Author": "Charles Dickens",
+        "ISBN": "9780141439723",
+        "Placement": "Almira 3, Shelf 3C"
+    },
+    {
+        "Serial No.": 65,
+        "Name": "The Adventures of Sherlock Holmes",
+        "Author": "Arthur Conan Doyle",
+        "ISBN": "9780486474916",
+        "Placement": "Almira 3, Shelf 3C"
+    },
+    {
+        "Serial No.": 66,
+        "Name": "The Hound of the Baskervilles",
+        "Author": "Arthur Conan Doyle",
+        "ISBN": "9780486282146",
+        "Placement": "Almira 3, Shelf 3D"
+    },
+    {
+        "Serial No.": 67,
+        "Name": "The Sign of Four",
+        "Author": "Arthur Conan Doyle",
+        "ISBN": "9780486222623",
+        "Placement": "Almira 3, Shelf 3D"
+    },
+    {
+        "Serial No.": 68,
+        "Name": "A Study in Scarlet",
+        "Author": "Arthur Conan Doyle",
+        "ISBN": "9780486472881",
+        "Placement": "Almira 3, Shelf 3D"
+    },
+    {
+        "Serial No.": 69,
+        "Name": "The Valley of Fear",
+        "Author": "Arthur Conan Doyle",
+        "ISBN": "9780486204727",
+        "Placement": "Almira 3, Shelf 3D"
+    },
+    {
+        "Serial No.": 70,
+        "Name": "Memoirs of Sherlock Holmes",
+        "Author": "Arthur Conan Doyle",
+        "ISBN": "9780486295596",
+        "Placement": "Almira 3, Shelf 3D"
+    },
+    {
+        "Serial No.": 71,
+        "Name": "Winnie-the-Pooh",
+        "Author": "A.A. Milne",
+        "ISBN": "9780140361216",
+        "Placement": "Almira 3, Shelf 3E"
+    },
+    {
+        "Serial No.": 72,
+        "Name": "The House at Pooh Corner",
+        "Author": "A.A. Milne",
+        "ISBN": "9780140361223",
+        "Placement": "Almira 3, Shelf 3E"
+    },
+    {
+        "Serial No.": 73,
+        "Name": "Peter Pan",
+        "Author": "J.M. Barrie",
+        "ISBN": "9780141322576",
+        "Placement": "Almira 3, Shelf 3E"
+    },
+    {
+        "Serial No.": 74,
+        "Name": "Alice's Adventures in Wonderland",
+        "Author": "Lewis Carroll",
+        "ISBN": "9780486275437",
+        "Placement": "Almira 3, Shelf 3E"
+    },
+    {
+        "Serial No.": 75,
+        "Name": "Through the Looking-Glass",
+        "Author": "Lewis Carroll",
+        "ISBN": "9780486275444",
+        "Placement": "Almira 3, Shelf 3E"
+    },
+    {
+        "Serial No.": 76,
+        "Name": "Treasure Island",
+        "Author": "Robert Louis Stevenson",
+        "ISBN": "9780486275598",
+        "Placement": "Almira 4, Shelf 4A"
+    },
+    {
+        "Serial No.": 77,
+        "Name": "Kidnapped",
+        "Author": "Robert Louis Stevenson",
+        "ISBN": "9780140434019",
+        "Placement": "Almira 4, Shelf 4A"
+    },
+    {
+        "Serial No.": 78,
+        "Name": "Dr. Jekyll and Mr. Hyde",
+        "Author": "Robert Louis Stevenson",
+        "ISBN": "9780486266886",
+        "Placement": "Almira 4, Shelf 4A"
+    },
+    {
+        "Serial No.": 79,
+        "Name": "Robinson Crusoe",
+        "Author": "Daniel Defoe",
+        "ISBN": "9780141439822",
+        "Placement": "Almira 4, Shelf 4A"
+    },
+    {
+        "Serial No.": 80,
+        "Name": "Gulliver's Travels",
+        "Author": "Jonathan Swift",
+        "ISBN": "9780486292731",
+        "Placement": "Almira 4, Shelf 4A"
+    }
+
+
+
+
+    {
+        "Serial No.": 81,
+        "Name": "The Three Musketeers",
+        "Author": "Alexandre Dumas",
+        "ISBN": "9780140440256",
+        "Placement": "Almira 4, Shelf 4B"
+    },
+    {
+        "Serial No.": 82,
+        "Name": "The Count of Monte Cristo",
+        "Author": "Alexandre Dumas",
+        "ISBN": "9780140449267",
+        "Placement": "Almira 4, Shelf 4B"
+    },
+    {
+        "Serial No.": 83,
+        "Name": "The Man in the Iron Mask",
+        "Author": "Alexandre Dumas",
+        "ISBN": "9780140439243",
+        "Placement": "Almira 4, Shelf 4B"
+    },
+    {
+        "Serial No.": 84,
+        "Name": "20,000 Leagues Under the Sea",
+        "Author": "Jules Verne",
+        "ISBN": "9780141441979",
+        "Placement": "Almira 4, Shelf 4B"
+    },
+    {
+        "Serial No.": 85,
+        "Name": "Journey to the Center of the Earth",
+        "Author": "Jules Verne",
+        "ISBN": "9780141441979",
+        "Placement": "Almira 4, Shelf 4B"
+    },
+    {
+        "Serial No.": 86,
+        "Name": "Around the World in Eighty Days",
+        "Author": "Jules Verne",
+        "ISBN": "9780141441979",
+        "Placement": "Almira 4, Shelf 4C"
+    },
+    {
+        "Serial No.": 87,
+        "Name": "The War of the Worlds",
+        "Author": "H.G. Wells",
+        "ISBN": "9780141441030",
+        "Placement": "Almira 4, Shelf 4C"
+    },
+    {
+        "Serial No.": 88,
+        "Name": "The Time Machine",
+        "Author": "H.G. Wells",
+        "ISBN": "9780141439976",
+        "Placement": "Almira 4, Shelf 4C"
+    },
+    {
+        "Serial No.": 89,
+        "Name": "The Invisible Man",
+        "Author": "H.G. Wells",
+        "ISBN": "9780141439983",
+        "Placement": "Almira 4, Shelf 4C"
+    },
+    {
+        "Serial No.": 90,
+        "Name": "The Island of Dr. Moreau",
+        "Author": "H.G. Wells",
+        "ISBN": "9780141441023",
+        "Placement": "Almira 4, Shelf 4C"
+    },
+    {
+        "Serial No.": 91,
+        "Name": "The Picture of Dorian Gray",
+        "Author": "Oscar Wilde",
+        "ISBN": "9780141439570",
+        "Placement": "Almira 4, Shelf 4D"
+    },
+    {
+        "Serial No.": 92,
+        "Name": "Dracula",
+        "Author": "Bram Stoker",
+        "ISBN": "9780141439846",
+        "Placement": "Almira 4, Shelf 4D"
+    },
+    {
+        "Serial No.": 93,
+        "Name": "Frankenstein",
+        "Author": "Mary Shelley",
+        "ISBN": "9780141439471",
+        "Placement": "Almira 4, Shelf 4D"
+    },
+    {
+        "Serial No.": 94,
+        "Name": "The Strange Case of Dr Jekyll and Mr Hyde",
+        "Author": "Robert Louis Stevenson",
+        "ISBN": "9780486266886",
+        "Placement": "Almira 4, Shelf 4D"
+    },
+    {
+        "Serial No.": 95,
+        "Name": "Jane Eyre",
+        "Author": "Charlotte Brontë",
+        "ISBN": "9780141441146",
+        "Placement": "Almira 4, Shelf 4D"
+    },
+    {
+        "Serial No.": 96,
+        "Name": "Wuthering Heights",
+        "Author": "Emily Brontë",
+        "ISBN": "9780141439556",
+        "Placement": "Almira 4, Shelf 4E"
+    },
+    {
+        "Serial No.": 97,
+        "Name": "Pride and Prejudice",
+        "Author": "Jane Austen",
+        "ISBN": "9780141439518",
+        "Placement": "Almira 4, Shelf 4E"
+    },
+    {
+        "Serial No.": 98,
+        "Name": "Sense and Sensibility",
+        "Author": "Jane Austen",
+        "ISBN": "9780141439662",
+        "Placement": "Almira 4, Shelf 4E"
+    },
+    {
+        "Serial No.": 99,
+        "Name": "Emma",
+        "Author": "Jane Austen",
+        "ISBN": "9780141439587",
+        "Placement": "Almira 4, Shelf 4E"
+    },
+    {
+        "Serial No.": 100,
+        "Name": "Mansfield Park",
+        "Author": "Jane Austen",
+        "ISBN": "9780141439808",
+        "Placement": "Almira 4, Shelf 4E"
+    },
+    {
+        "Serial No.": 101,
+        "Name": "Great Expectations",
+        "Author": "Charles Dickens",
+        "ISBN": "9780141439563",
+        "Placement": "Almira 5, Shelf 5A"
+    },
+    {
+        "Serial No.": 102,
+        "Name": "Hard Times",
+        "Author": "Charles Dickens",
+        "ISBN": "9780141439679",
+        "Placement": "Almira 5, Shelf 5A"
+    },
+    {
+        "Serial No.": 103,
+        "Name": "Little Dorrit",
+        "Author": "Charles Dickens",
+        "ISBN": "9780141439969",
+        "Placement": "Almira 5, Shelf 5A"
+    },
+    {
+        "Serial No.": 104,
+        "Name": "A Christmas Carol",
+        "Author": "Charles Dickens",
+        "ISBN": "9780486268652",
+        "Placement": "Almira 5, Shelf 5A"
+    },
+    {
+        "Serial No.": 105,
+        "Name": "The Adventures of Tom Sawyer",
+        "Author": "Mark Twain",
+        "ISBN": "9780141439648",
+        "Placement": "Almira 5, Shelf 5A"
+    },
+    {
+        "Serial No.": 106,
+        "Name": "The Adventures of Huckleberry Finn",
+        "Author": "Mark Twain",
+        "ISBN": "9780141439594",
+        "Placement": "Almira 5, Shelf 5B"
+    },
+    {
+        "Serial No.": 107,
+        "Name": "The Prince and the Pauper",
+        "Author": "Mark Twain",
+        "ISBN": "9780141439679",
+        "Placement": "Almira 5, Shelf 5B"
+    },
+    {
+        "Serial No.": 108,
+        "Name": "The Scarlet Letter",
+        "Author": "Nathaniel Hawthorne",
+        "ISBN": "9780142437260",
+        "Placement": "Almira 5, Shelf 5B"
+    },
+    {
+        "Serial No.": 109,
+        "Name": "The House of the Seven Gables",
+        "Author": "Nathaniel Hawthorne",
+        "ISBN": "9780140390031",
+        "Placement": "Almira 5, Shelf 5B"
+    },
+    {
+        "Serial No.": 110,
+        "Name": "The Last of the Mohicans",
+        "Author": "James Fenimore Cooper",
+        "ISBN": "9780140390246",
+        "Placement": "Almira 5, Shelf 5B"
+    },
+    {
+        "Serial No.": 111,
+        "Name": "Moby Dick",
+        "Author": "Herman Melville",
+        "ISBN": "9780142437246",
+        "Placement": "Almira 5, Shelf 5C"
+    },
+    {
+        "Serial No.": 112,
+        "Name": "Billy Budd and Other Stories",
+        "Author": "Herman Melville",
+        "ISBN": "9780140437324",
+        "Placement": "Almira 5, Shelf 5C"
+    },
+    {
+        "Serial No.": 113,
+        "Name": "Typee",
+        "Author": "Herman Melville",
+        "ISBN": "9780142437482",
+        "Placement": "Almira 5, Shelf 5C"
+    },
+
+
+    {
+        "Serial No.": 114,
+        "Name": "The Call of the Wild",
+        "Author": "Jack London",
+        "ISBN": "9780142437338",
+        "Placement": "Almira 5, Shelf 5C"
+    },
+    {
+        "Serial No.": 115,
+        "Name": "White Fang",
+        "Author": "Jack London",
+        "ISBN": "9780142437536",
+        "Placement": "Almira 5, Shelf 5C"
+    },
+    {
+        "Serial No.": 116,
+        "Name": "Treasure Island",
+        "Author": "Robert Louis Stevenson",
+        "ISBN": "9780141439815",
+        "Placement": "Almira 5, Shelf 5C"
+    },
+    {
+        "Serial No.": 117,
+        "Name": "The Jungle Book",
+        "Author": "Rudyard Kipling",
+        "ISBN": "9780142437710",
+        "Placement": "Almira 5, Shelf 5C"
+    },
+    {
+        "Serial No.": 118,
+        "Name": "Kim",
+        "Author": "Rudyard Kipling",
+        "ISBN": "9780142437703",
+        "Placement": "Almira 5, Shelf 5D"
+    },
+    {
+        "Serial No.": 119,
+        "Name": "The Hunchback of Notre-Dame",
+        "Author": "Victor Hugo",
+        "ISBN": "9780140443531",
+        "Placement": "Almira 5, Shelf 5D"
+    },
+    {
+        "Serial No.": 120,
+        "Name": "Les Misérables",
+        "Author": "Victor Hugo",
+        "ISBN": "9780140444309",
+        "Placement": "Almira 5, Shelf 5D"
+    },
+    {
+        "Serial No.": 121,
+        "Name": "Don Quixote",
+        "Author": "Miguel de Cervantes",
+        "ISBN": "9780142437239",
+        "Placement": "Almira 5, Shelf 5D"
+    },
+    {
+        "Serial No.": 122,
+        "Name": "The Red Badge of Courage",
+        "Author": "Stephen Crane",
+        "ISBN": "9780143039358",
+        "Placement": "Almira 5, Shelf 5D"
+    },
+    {
+        "Serial No.": 123,
+        "Name": "The Last of the Mohicans",
+        "Author": "James Fenimore Cooper",
+        "ISBN": "9780140390246",
+        "Placement": "Almira 5, Shelf 5E"
+    },
+    {
+        "Serial No.": 124,
+        "Name": "The Deerslayer",
+        "Author": "James Fenimore Cooper",
+        "ISBN": "9780140390161",
+        "Placement": "Almira 5, Shelf 5E"
+    },
+    {
+        "Serial No.": 125,
+        "Name": "Uncle Tom's Cabin",
+        "Author": "Harriet Beecher Stowe",
+        "ISBN": "9780140390031",
+        "Placement": "Almira 5, Shelf 5E"
+    }
+]
