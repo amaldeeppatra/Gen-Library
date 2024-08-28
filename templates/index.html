@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Llama3 with Voice Input</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ask Llama3</h1>
+    <button onclick="startRecognition()">Start Voice Input</button>
+    <div id="result"></div>
+
+    <script>
+        function startRecognition() {
+            const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+            recognition.lang = 'en-US';
+            recognition.interimResults = false;
+            recognition.maxAlternatives = 1;
+
+            recognition.start();
+
+            recognition.onresult = function(event) {
+                const transcript = event.results[0][0].transcript;
+                document.getElementById('result').textContent = "You said: " + transcript;
+                sendToBackend(transcript);
+            };
+
+            recognition.onspeechend = function() {
+                recognition.stop();
+            };
+
+            recognition.onerror = function(event) {
+                document.getElementById('result').textContent = 'Error occurred: ' + event.error;
+            };
+        }
+
+        function sendToBackend(transcript) {
+            const xhr = new XMLHttpRequest();
+            xhr.open("POST", "/ask", true);
+            xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    const response = JSON.parse(xhr.responseText);
+                    document.getElementById('result').textContent = "Llama3 says: " + response.result;
+                }
+            };
+            xhr.onerror = function() {
+                document.getElementById('result').textContent = 'Request failed. Please try again.';
+            };
+            xhr.send(JSON.stringify({ query: transcript }));
+        }
+    </script>
+</body>
+</html>
