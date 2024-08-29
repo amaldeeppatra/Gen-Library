@@ -3,68 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ask Llama3 with Voice Input</title>
+    <title>Chat Interface</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #202123;
+        }
+        .chat-container {
+            background-color: #35363a;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            max-width: 100%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            height: 80vh;
+        }
+        .messages {
+            flex-grow: 1;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            padding-right: 10px;
+        }
+        .message {
+            background-color: #40444b;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            color: #e0e0e0;
+            max-width: 75%;
+        }
+        .message.user {
+            background-color: #1d4ed8;
+            color: #fff;
+            align-self: flex-end;
+        }
+        .message.bot {
+            background-color: #35363a;
+            align-self: flex-start;
+        }
+        .input-container {
+            display: flex;
+            align-items: center;
+        }
+        input[type="text"] {
+            flex-grow: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            margin-right: 10px;
+            outline: none;
+            background-color: #40444b;
+            color: #fff;
         }
         button {
             padding: 10px 20px;
-            font-size: 16px;
+            background-color: #1d4ed8;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
             cursor: pointer;
         }
-        #result {
-            margin-top: 20px;
-            font-size: 24px;
-            font-weight: bold;
+        button:hover {
+            background-color: #3b82f6;
         }
     </style>
 </head>
 <body>
-    <h1>Ask Llama3</h1>
-    <button onclick="startRecognition()">Start Voice Input</button>
-    <div id="result"></div>
+    <div class="chat-container">
+        <div class="messages" id="messages"></div>
+        <div class="input-container">
+            <input type="text" id="queryInput" placeholder="Ask your query..." required>
+            <button onclick="sendQuery()">Submit</button>
+        </div>
+    </div>
 
     <script>
-        function startRecognition() {
-            const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
-            recognition.lang = 'en-US';
-            recognition.interimResults = false;
-            recognition.maxAlternatives = 1;
+        function sendQuery() {
+            const query = document.getElementById('queryInput').value;
+            if (query.trim() === '') return;
 
-            recognition.start();
+            // Display user message
+            displayMessage(query, 'user');
 
-            recognition.onresult = function(event) {
-                const transcript = event.results[0][0].transcript;
-                document.getElementById('result').textContent = "You said: " + transcript;
-                sendToBackend(transcript);
-            };
+            fetch('/ask', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ query: query })
+            })
+            .then(response => response.json())
+            .then(data => {
+                displayMessage(data.answer, 'bot');
+            })
+            .catch(error => {
+                displayMessage('Sorry, something went wrong.', 'bot');
+                console.error('Error:', error);
+            });
 
-            recognition.onspeechend = function() {
-                recognition.stop();
-            };
-
-            recognition.onerror = function(event) {
-                document.getElementById('result').textContent = 'Error occurred: ' + event.error;
-            };
+            document.getElementById('queryInput').value = '';
         }
 
-        function sendToBackend(transcript) {
-            const xhr = new XMLHttpRequest();
-            xhr.open("POST", "/ask", true);
-            xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState === 4 && xhr.status === 200) {
-                    const response = JSON.parse(xhr.responseText);
-                    document.getElementById('result').textContent = "Llama3 says: " + response.result;
-                }
-            };
-            xhr.onerror = function() {
-                document.getElementById('result').textContent = 'Request failed. Please try again.';
-            };
-            xhr.send(JSON.stringify({ query: transcript }));
+        function displayMessage(text, sender) {
+            const messages = document.getElementById('messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('message', sender);
+            messageDiv.textContent = text;
+            messages.appendChild(messageDiv);
+            messages.scrollTop = messages.scrollHeight;
         }
     </script>
 </body>

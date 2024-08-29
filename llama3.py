@@ -102,9 +102,9 @@ def get_answerllama(query, user_folder):
     print(return_result['result'])
     return return_result
 
-while True:
-    ch = input("Ask your query: ")
-    if ch == 'exit':
-        break
-    else:
-        get_answerllama(ch, 'embeddings')
+# while True:
+#     ch = input("Ask your query: ")
+#     if ch == 'exit':
+#         break
+#     else:
+#         get_answerllama(ch, 'embeddings')
