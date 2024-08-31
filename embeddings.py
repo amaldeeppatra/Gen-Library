@@ -62,4 +62,4 @@ def create_embeddings(file_path):
 
 '''Testing purpose'''
 if __name__ == "__main__":
-    create_embeddings("books.pdf")
+    create_embeddings("books_with_summary.pdf")

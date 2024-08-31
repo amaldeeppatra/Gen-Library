@@ -68,85 +68,7 @@
         "Author": "Fyodor Dostoevsky",
         "ISBN": "9780374528379",
         "Placement": "Almira 1, Shelf 1B"
-    }
-
-
-    {
-        "Serial No.": 1,
-        "Name": "To Kill a Mockingbird",
-        "Author": "Harper Lee",
-        "ISBN": "9780061120084",
-        "Placement": "Almira 1, Shelf 1A"
     },
-    {
-        "Serial No.": 2,
-        "Name": "1984",
-        "Author": "George Orwell",
-        "ISBN": "9780451524935",
-        "Placement": "Almira 1, Shelf 1A"
-    },
-    {
-        "Serial No.": 3,
-        "Name": "Pride and Prejudice",
-        "Author": "Jane Austen",
-        "ISBN": "9781503290563",
-        "Placement": "Almira 1, Shelf 1A"
-    },
-    {
-        "Serial No.": 4,
-        "Name": "The Great Gatsby",
-        "Author": "F. Scott Fitzgerald",
-        "ISBN": "9780743273565",
-        "Placement": "Almira 1, Shelf 1A"
-    },
-    {
-        "Serial No.": 5,
-        "Name": "Moby Dick",
-        "Author": "Herman Melville",
-        "ISBN": "9781503280786",
-        "Placement": "Almira 1, Shelf 1A"
-    },
-    {
-        "Serial No.": 6,
-        "Name": "War and Peace",
-        "Author": "Leo Tolstoy",
-        "ISBN": "9781400079988",
-        "Placement": "Almira 1, Shelf 1B"
-    },
-    {
-        "Serial No.": 7,
-        "Name": "The Catcher in the Rye",
-        "Author": "J.D. Salinger",
-        "ISBN": "9780316769488",
-        "Placement": "Almira 1, Shelf 1B"
-    },
-    {
-        "Serial No.": 8,
-        "Name": "The Odyssey",
-        "Author": "Homer",
-        "ISBN": "9780140268867",
-        "Placement": "Almira 1, Shelf 1B"
-    },
-    {
-        "Serial No.": 9,
-        "Name": "Crime and Punishment",
-        "Author": "Fyodor Dostoevsky",
-        "ISBN": "9780486415871",
-        "Placement": "Almira 1, Shelf 1B"
-    },
-    {
-        "Serial No.": 10,
-        "Name": "The Brothers Karamazov",
-        "Author": "Fyodor Dostoevsky",
-        "ISBN": "9780374528379",
-        "Placement": "Almira 1, Shelf 1B"
-    }
-
-
-
-
-
-
     {
         "Serial No.": 11,
         "Name": "Wuthering Heights",
@@ -371,10 +293,6 @@
         "ISBN": "9780064471052",
         "Placement": "Almira 2, Shelf 2D
     },
-
-
-
-
     {
         "Serial No.": 43,
         "Name": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
