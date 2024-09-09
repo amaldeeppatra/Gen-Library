@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Recognition Example</title>
+</head>
+
+<body>
+    <button id="start-btn">Start Listening</button>
+    <p id="result"></p>
+    <textarea id="text-box" rows="5" cols="50" placeholder="Your speech will appear here..."></textarea>
+
+    <script>
+        // Check if the browser supports webkitSpeechRecognition
+        if ('webkitSpeechRecognition' in window) {
+            // Create a new instance of the webkitSpeechRecognition
+            const recognition = new webkitSpeechRecognition();
+
+            // Set recognition properties
+            recognition.continuous = true; // Stop recognition after a single result
+            recognition.interimResults = false; // Return only final results
+            recognition.lang = 'en-US'; // Set the language to English (US)
+
+            // Variable to track recognition state
+            let recognizing = false;
+            // Start the recognition when the button is clicked
+            document.getElementById('start-btn').addEventListener('click', function () {
+                if (!recognizing) {
+                    recognition.start();
+                }
+            });
+            // Event handler for when recognition starts
+            recognition.onstart = function () {
+                console.log("Speech recognition started");
+                recognizing = true;
+                document.getElementById('start-btn').disabled = true; // Disable the button during recognition
+            };
+
+            // Event handler for when recognition ends
+            recognition.onend = function () {
+                console.log("Speech recognition ended");
+                recognizing = false;
+                document.getElementById('start-btn').disabled = false; // Re-enable the button
+            };
+
+            // Event handler for when a result is received
+            recognition.onresult = function (event) {
+                const transcript = event.results[0][0].transcript;
+                document.getElementById('result').textContent = 'You said: ' + transcript;
+
+                // Display the transcript in the textarea
+                document.getElementById('text-box').value = transcript;
+
+                console.log("Result: " + transcript);
+            };
+
+            // Event handler for errors
+            recognition.onerror = function (event) {
+                console.error("Error occurred in recognition: " + event.error);
+                if (event.error === 'no-speech') {
+                    alert('No speech detected. Please try again.');
+                }
+            };
+
+
+        } else {
+            alert('Your browser does not support speech recognition.');
+        }
+    </script>
+</body>
+
+</html>
