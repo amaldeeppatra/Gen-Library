@@ -81,7 +81,7 @@ function sendQuery(query) {
             return response.json();
         })
         .then(data => {
-            resultDisplay.value = data.answer;
+            typeWriterEffect(data.answer);
             statusDisplay.innerHTML = 'Query processed.';
         })
         .catch(error => {
@@ -89,4 +89,21 @@ function sendQuery(query) {
             resultDisplay.value = 'An error occurred while getting the answer.';
             statusDisplay.innerHTML = 'Error processing your query.';
         });
+}
+
+// Function to generate a typewriter effect
+function typeWriterEffect(text) {
+    resultDisplay.value = '';  // Clear previous content
+    let i = 0;
+    let speed = 50;  // Speed of typewriting in milliseconds
+
+    function type() {
+        if (i < text.length) {
+            resultDisplay.value += text.charAt(i);
+            i++;
+            setTimeout(type, speed);
+        }
+    }
+
+    type();
 }
